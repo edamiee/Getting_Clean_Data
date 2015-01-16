@@ -1,10 +1,10 @@
 ##run_analysis.R
-The script was created in R Studio on Mac OS 10
+The script was created in R Studio on Mac OS X
 
-<li>Download the zip directory and unzip in the working directory
+*Download the zip directory and unzip in the working directory
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip <br>
-<li>Set the working directory to "UCI HAR Dataset" before executing
-<li> The script takes data merges features,subjects and activities with clean variable names
+*Set the working directory to "UCI HAR Dataset" before executing
+*The script takes data merges features,subjects and activities with clean variable names
 
 ##CodeBook.md
 The Codebook contains description of the original dataset, data transformation and the tidy dataset format
@@ -22,10 +22,10 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-<li> You should create one R script called run_analysis.R that does the following. 
-<li>Merges the training and the test sets to create one data set.
-<li>Extracts only the measurements on the mean and standard deviation for each measurement. 
-<li>Uses descriptive activity names to name the activities in the data set
-<li>Appropriately labels the data set with descriptive variable names. 
-<li>From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+1. You should create one R script called run_analysis.R that does the following. 
+2.Merges the training and the test sets to create one data set.
+3.Extracts only the measurements on the mean and standard deviation for each measurement. 
+4.Uses descriptive activity names to name the activities in the data set
+5.Appropriately labels the data set with descriptive variable names. 
+6.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
